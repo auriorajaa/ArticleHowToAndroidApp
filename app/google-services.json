@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "184887073788",
+    "firebase_url": "https://cloud-akmal-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cloud-akmal",
+    "storage_bucket": "cloud-akmal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184887073788:android:1757e5529684ab382bf079",
+        "android_client_info": {
+          "package_name": "com.example.articleentertainmentandtips"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8IlqETr-Ak43QVDQVFV9sKFydvXY1NGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

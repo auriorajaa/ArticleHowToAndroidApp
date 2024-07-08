@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="0dp"
+    android:elevation="0dp"
+    android:outlineProvider="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/articleImage"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Article Title"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/manrope_extrabold"/>
+
+        <TextView
+            android:id="@+id/articleCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="14sp"
+            android:fontFamily="@font/manrope_semibold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/articleContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Article content preview goes here..."
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="8dp"
+            android:maxLines="3"
+            android:fontFamily="@font/manrope_regular"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/articleDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Published on: YYYY-MM-DD"
+            android:textSize="12sp"
+            android:fontFamily="@font/manrope_light"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/articleUID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UID"
+            android:textSize="12sp"
+            android:fontFamily="@font/manrope_light"
+            android:textColor="@android:color/black"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
